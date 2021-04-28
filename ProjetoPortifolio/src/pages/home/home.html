@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Gossip Book
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-item (click)="startToast()">
+      <ion-icon name="play"></ion-icon>
+      Start
+    </ion-item>
+    <ion-item (click)="friendToast()">
+      <ion-icon name="people"></ion-icon>
+      Found Friends
+    </ion-item>
+    <ion-item (click)="volumeToast()">
+      <ion-icon name="volume-high"></ion-icon>
+      Put sound at max volume
+    </ion-item>
+    <ion-item (click)="brightToast()">
+      <ion-icon name="contrast"></ion-icon>
+      Turn on the max screen brightness
+    </ion-item>
+    <ion-item (click)="engineToast()">
+      <ion-icon name="settings"></ion-icon>
+      Start your Engines
+    </ion-item>
+   
+  </ion-list>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="primary">
+
+    <ion-title>
+
+    </ion-title>
+
+
+  </ion-toolbar>
+</ion-footer>
